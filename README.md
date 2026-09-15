@@ -69,7 +69,7 @@ Change the path if the JDK is installed somewhere else.
 
 ## 2. Start MySQL
 
-Start the MySQL Docker container:
+Start the MySQL Docker container and please makesure to keep the docker desktop application open while entering the below commands:
 
 ```powershell
 docker compose up -d mysql
@@ -99,7 +99,7 @@ Password: wrg_password
 
 ## 3. Start The Backend (To start with AI chatbot please refer part 6)
 
-Open a new PowerShell terminal inside the backend folder:
+Open a new PowerShell terminal inside the backend folder and makesure the mysql docker container is running before starting the backend:
 
 ```powershell
 $env:JAVA_HOME="C:\Program Files\Java\jdk-21"
